@@ -65,7 +65,7 @@ const logo_747b7557_578e_iconGeometry = new THREE.CircleGeometry(0.5);
     });
     const logo_747b7557_578e = new THREE.Mesh(logo_747b7557_578e_iconGeometry, logo_747b7557_578e_image);
     logo_747b7557_578e.scale.set(0.2, 0.2, 1);
-    logo_747b7557_578e.position.set(-0.3, -0.7, 0);
+    logo_747b7557_578e.position.set(-0.3, -0.9, 0);
     logo_747b7557_578e.rotation.set(-0.0007963267948964958, 0, 0);
     logo_747b7557_578e.userData.clickable = true
 const logo_25ede333_ed84_iconGeometry = new THREE.CircleGeometry(0.5);
@@ -75,7 +75,7 @@ const logo_25ede333_ed84_iconGeometry = new THREE.CircleGeometry(0.5);
     });
     const logo_25ede333_ed84 = new THREE.Mesh(logo_25ede333_ed84_iconGeometry, logo_25ede333_ed84_image);
     logo_25ede333_ed84.scale.set(0.2, 0.2, 1);
-    logo_25ede333_ed84.position.set(0, -0.7, 0);
+    logo_25ede333_ed84.position.set(0, -0.9, 0);
     logo_25ede333_ed84.rotation.set(-0.0007963267948964958, 0, 0);
     logo_25ede333_ed84.userData.clickable = true
 const logo_d56dab7b_57f7_iconGeometry = new THREE.CircleGeometry(0.5);
@@ -85,7 +85,7 @@ const logo_d56dab7b_57f7_iconGeometry = new THREE.CircleGeometry(0.5);
     });
     const logo_d56dab7b_57f7 = new THREE.Mesh(logo_d56dab7b_57f7_iconGeometry, logo_d56dab7b_57f7_image);
     logo_d56dab7b_57f7.scale.set(0.2, 0.2, 1);
-    logo_d56dab7b_57f7.position.set(0.3, -0.7, 0);
+    logo_d56dab7b_57f7.position.set(0.3, -0.9, 0);
     logo_d56dab7b_57f7.rotation.set(-0.0007963267948964958, 0, 0);
     logo_d56dab7b_57f7.userData.clickable = true
       
