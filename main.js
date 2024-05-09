@@ -13,6 +13,7 @@
   const mindThree = new MindARThree({
     container: document.body,
     imageTargetSrc: "assets/target.mind",
+    uiLoading: "#scanning-overlay",
   });
 
   const { renderer, scene, camera } = mindThree;
@@ -105,7 +106,8 @@ const logo_d56dab7b_57f7_iconGeometry = new THREE.CircleGeometry(0.5);
         o = o.parent;
       }
 
-      
+       if (o.userData.clickable) window.showLoadingScreen();
+        
       if (o.userData.clickable && o === logo_a0d441cb_9ddd) {
           window.location.href = "https://nau-ra.com"
         }
